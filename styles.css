@@ -1,0 +1,33 @@
+body {
+  color: white;
+  text-align: center;
+  background-color: green;
+}
+#header {
+  display: flex;
+  position: fixed;
+}
+#header-img {
+  width: 160px;
+  height: 196px;
+}
+#video {
+  width: 720px;
+  height: 480px;
+}
+@media only screen and (max-width: 800px) {
+  #header-img {
+    width: 80px;
+    height: 98px;
+  }
+  #video {
+    width: 240px;
+    height: 160px;
+  }
+}
+.red {
+  color: darkred;
+}
+a {
+  color: white;
+}
